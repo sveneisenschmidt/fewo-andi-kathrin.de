@@ -57,7 +57,8 @@ article iframe + p,
 article h2 + .carousel,
 article p + .carousel,
 article h2 + p,
-article h2 + .row {
+article h2 + .row,
+article .row + p {
     margin-top: 30px;
 }
 
