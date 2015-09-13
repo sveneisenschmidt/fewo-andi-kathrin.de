@@ -1,0 +1,79 @@
+body {
+    font-family: 'Lato';
+}
+
+iframe, object, embed { width: 100%; }
+
+header {
+    background: url('../images/background.jpg');
+    background-position: center center;
+}
+
+header .jumbotron {
+    background: none;
+}
+
+header .page-header {
+    border: none;
+}
+
+
+header .page-header h1,
+header .page-header h1 small {
+    color: #fff;
+}
+
+header .page-header h1 {
+    font-family: 'Lobster';
+}
+
+header .page-header small {
+    font-family: 'Lato';
+    font-weight: 300;
+}
+
+
+.text-lg {
+    font-size: 28px;
+}
+
+.text-md {
+    font-size: 22px;
+}
+
+.text-lighter {
+    font-weight: 300;
+}
+
+article section {
+    margin-bottom: 60px;
+}
+
+article iframe,
+article address,
+article h2 + iframe,
+article p + iframe,
+article iframe + p,
+article h2 + .carousel,
+article p + .carousel,
+article h2 + p,
+article h2 + .row {
+    margin-top: 30px;
+}
+
+article address {
+    margin-top: 60px;
+}
+
+.navbar {
+    background: #fff;
+}
+
+.navbar .navbar-nav a {
+    color: #000;
+}
+
+.navbar-toggle .icon-bar {
+    border: 1px solid #000;
+}
+
